@@ -1,0 +1,105 @@
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25vh;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-right>img {
+    height: 34px;
+    width: 34px;
+    object-fit: contain;
+}
+
+.header-left>a,
+.header-right>a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #222;
+}
+
+.header-right>a,
+.header-right>i {
+    margin-right: 15px;
+}
+
+.header-left>a:hover,
+.header-right>a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img {
+    height: 92px;
+    object-fit: contain;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 60vw;
+    max-width: 500px;
+}
+
+.input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.input>input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    font-size: medium;
+}
+
+.input>i {
+    color: gray;
+}
+
+.input>input:focus {
+    outline-width: 0;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons>button {
+    margin: 5px;
+    padding: 7px 15px;
+    border: 1px solid white;
+    color: #5f6368;
+}
+
+.buttons>button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
